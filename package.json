@@ -1,0 +1,11 @@
+{
+  "name": "slack-claude-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "@anthropic-ai/sdk": "^0.20.0",
+    "dotenv": "^16.0.0"
+  }
+}
